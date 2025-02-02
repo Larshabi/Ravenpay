@@ -17,7 +17,7 @@ app.use(morgan('dev'));
 
 app.use(helmet());
 
-//RouteV1(app);
+RouteV1(app);
 
 app.use(ErrorHandler);
 

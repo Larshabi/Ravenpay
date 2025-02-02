@@ -16,7 +16,7 @@ const config: { [key: string]: Knex.Config } = {
         database: process.env.DATABASE,
     },
     migrations: {
-        directory: "./migrations",
+        directory: "./src/db/migrations",
     },
   },
 
