@@ -2,7 +2,7 @@ import { NextFunction, Request, Response } from "express";
 
 function ErrorHandler(err: any, req: Request, res: Response, next: NextFunction): void{
     console.log({err});
-
+    console.log({error: err.response})
     if(err.name === 'TokenExpiredError'){
          res.status(401)
         .json({

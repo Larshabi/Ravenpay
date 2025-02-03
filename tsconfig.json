@@ -112,5 +112,5 @@
     "node_modules/**/*",
     ".vscode/**/*"
   ],
-  "include": ["src/**/*.ts", "**/*.ts",]
+  "include": ["src/**/*.ts", "**/*.ts", "tests/**/*"]
 }

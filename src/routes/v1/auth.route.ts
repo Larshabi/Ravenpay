@@ -6,4 +6,6 @@ const AuthRoute = Router();
 
 AuthRoute.post('/user/register', asyncHandler(AuthController.CreateUser));
 
+AuthRoute.post('/user/login', asyncHandler(AuthController.Login));
+
 export default AuthRoute;
